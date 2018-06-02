@@ -3,22 +3,22 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
 
-function destructivelyAppendKitten (kittens, name) {
+function destructivelyAppendKitten(kittens, name) {
   kittens.push(name);
   return kittens;
 }
 
-function destructivelyPrependKitten (kittens, name) {
+function destructivelyPrependKitten(kittens, name) {
   kittens.unshift(name);
   return kittens;
 }
 
-function destructivelyRemoveLastKitten (kittens) {
+function destructivelyRemoveLastKitten(kittens) {
   kittens.pop();
   return kittens;
 }
 
-function destructivelyAddLastKitten (kittens) {
+function destructivelyAddLastKitten(kittens) {
   kittens.shift();
   return kittens;
 }
