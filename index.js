@@ -29,7 +29,7 @@ function appendKitten(name) {
 }
 
 function preprendKitten(name) {
-  var newKitt= [...kittens, name]
+  var newKit= [...kittens, name]
   return newKit;
 }
 
