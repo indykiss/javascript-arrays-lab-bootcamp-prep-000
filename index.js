@@ -3,25 +3,45 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
 
-function destructivelyAppendKitten(kittens, name) {
-  kittens.push(name);
-  return kittens;
+// function destructivelyAppendKitten(kittens, name) {
+//   kittens.push(name);
+//   return kittens;
+// }
+// 
+// function destructivelyPrependKitten(kittens, name) {
+//   kittens.unshift(name);
+//   return kittens;
+// }
+// 
+// function destructivelyRemoveLastKitten(kittens) {
+//   kittens.pop();
+//   return kittens;
+// }
+// 
+// function destructivelyAddLastKitten(kittens) {
+//   kittens.shift();
+//   return kittens;
+// }
+
+
+function appendKitten(name) {
+  
 }
 
-function destructivelyPrependKitten(kittens, name) {
-  kittens.unshift(name);
-  return kittens;
+function preprendKitten(name) {
+  
 }
 
-function destructivelyRemoveLastKitten(kittens) {
-  kittens.pop();
-  return kittens;
+function removeLastKitten() {
+  var newKitten = kittens[0, kittens.length-1]
+  return newKitten;
 }
 
-function destructivelyAddLastKitten(kittens) {
-  kittens.shift();
-  return kittens;
+function removeFirstKitten() {
+  
 }
 
-//
-// function appendKitten()
+
+
+
+
