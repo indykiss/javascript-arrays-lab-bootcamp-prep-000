@@ -7,17 +7,17 @@ var kittens = ["Milo", "Otis", "Garfield"]
 //   kittens.push(name);
 //   return kittens;
 // }
-// 
+//
 // function destructivelyPrependKitten(kittens, name) {
 //   kittens.unshift(name);
 //   return kittens;
 // }
-// 
+//
 // function destructivelyRemoveLastKitten(kittens) {
 //   kittens.pop();
 //   return kittens;
 // }
-// 
+//
 // function destructivelyAddLastKitten(kittens) {
 //   kittens.shift();
 //   return kittens;
@@ -25,11 +25,11 @@ var kittens = ["Milo", "Otis", "Garfield"]
 
 
 function appendKitten(name) {
-  
+
 }
 
 function preprendKitten(name) {
-  
+
 }
 
 function removeLastKitten() {
@@ -38,10 +38,5 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  
+
 }
-
-
-
-
-
