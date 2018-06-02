@@ -25,12 +25,12 @@ var kittens = ["Milo", "Otis", "Garfield"]
 
 
 function appendKitten(name) {
-
+  var newKit= [...kittens, name]
+  return newKit;
 }
 
 function preprendKitten(name) {
-  var newKit= [...kittens, name]
-  return newKit;
+
 }
 
 function removeLastKitten() {
