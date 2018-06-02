@@ -33,10 +33,11 @@ function preprendKitten(name) {
 }
 
 function removeLastKitten() {
-  var newKitten = kittens[0, kittens.length-1]
-  return newKitten;
+  kittens[0, kittens.length-1]
+  return kittens;
 }
 
 function removeFirstKitten() {
+
 
 }
